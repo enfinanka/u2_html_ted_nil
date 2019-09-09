@@ -18,11 +18,10 @@ header {
   position: fixed;
   display: flex;
   justify-content: center;
-  /* border: 3px solid red; */
   height: 80px;
   top: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.87);
   color: black;
   z-index: 1;
 }
@@ -51,14 +50,13 @@ header ul li {
   margin-right: 15px;
 }
 
+/* Left navigation bar, wrapper wraps main and left bar */
+
 .wrapper {
   margin-top: 80px;
 }
 
-/* Left flex-container for navigation */
-
 .leftBar {
-  /* border: 1px solid yellow; */
   height: 75vh;
   width: 20vw;
   min-width: 150px;
@@ -84,17 +82,11 @@ header ul li {
   margin: 0;
 }
 
-#socialmedia {
-  display: flex;
-  justify-content: center;
-}
-
 /* Main content */
 
 main {
   padding: 50px 0 0 20px;
   margin-left: 20vw;
-  /* border: 2px solid yellow; */
   width: 60vw;
   min-width: 830px;
 }
@@ -125,7 +117,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 1px solid blue; */
 }
 
 .productContainer p {
@@ -164,7 +155,6 @@ main {
 
 .descOnImage {
   display: flex;
-  justify-content: ;
   align-items: flex-end;
   width: 100%;
 }
@@ -194,48 +184,20 @@ main {
 .contactUs {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 20%;
   min-width: 150px;
   padding: 5px 0 3px 0;
-  font-size: 0.9em;
-  /* border: 1px solid red; */
-  background: rgba(24, 59, 84, 0.9);
+  font-size: 1em;
+  /* background: rgba(24, 59, 84, 0.9); */
   border-radius: 3px;
-  /* background-image: linear-gradient(to right, rgba(75, 109, 133, 0.7), rgba(255, 255, 255,1)); */
   color: white;
-  /* transition: 2s; */
-  z-index: 2;
 }
 
 .contactUs img {
-margin-left: 3px;
+  margin-left: 5px;
 }
 
-/* #upcomingProducts h3 {
-  color: white;
-  position: absolute;
-  margin-left: 20px;
-  font-size: 3rem;
-} */
-
-/* #googlemaps {
-  cursor:pointer;
-  transition: height 2s;
-  height: 33px;
-  width: 33px;
-  border: 0;
-  background: 0;
+#socialmedia {
+  display: flex;
+  justify-content: center;
 }
-
-#googlemaps:hover{
-  transition: 2s;
-  width: 265px;
-}
-#googlemaps:focus {
-  height: 300px;
-  width: 265x;
-}
-
-#gmap {
-  z-index: 1;
-} */
