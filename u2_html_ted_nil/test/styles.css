@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-*, html {
+* {
   margin: 0;
   padding: 0;
 }
@@ -25,8 +25,6 @@ header {
   z-index: 100;
 }
 
-
-
 header h1 {
   margin-top: 20px;
 }
@@ -39,7 +37,7 @@ header h1 {
   /* border: 1px solid yellow; */
   height: 75vh;
   width: 20vw;
-  min-width: 100px;
+  min-width: 150px;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -65,34 +63,31 @@ header h1 {
 .contactUs {
   position: fixed;
   bottom: 0;
-  width: 20vw;
+  width: 100vw;
   min-width: 150px;
-  padding: 5px 0 3px 0;
+  padding: 3px 0 3px 0;
   text-align: center;
   font-size: 0.9em;
   /* border: 1px solid red; */
   /* background: rgba(24, 59, 84, 0.7); */
   background-image: linear-gradient(to right, rgba(75, 109, 133, 0.7), rgba(255, 255, 255,1));
   color: white;
-  transition: 2s;
+  /* transition: 2s; */
 }
 
 .contactUs img {
 margin-left: 3px;
 }
 
-/* .contactUs:hover {
-  width: 100vw;
-} */
-
-
+.contactUs:hover {
+  width: 20vw;
+}
 
 main {
   padding: 80px 0 0 20px;
   margin-left: 20vw;
   /* border: 2px solid yellow; */
   width: 60vw;
-  min-width: 830px;
 }
 
 #nikeheader {
@@ -115,19 +110,19 @@ main {
 
 .productContainer p {
   margin-top: 7px;
+  width: 300px;
 }
 
 
-.nikeshoe {
-  width: 19vw;
-  min-width: 215px;
+.nikeShoe {
+  height: 26vh;
   filter: grayscale(50%);
-  transition: 1.5s width;
+  transition: 1.5s height;
 }
 
-.nikeshoe:hover {
+.nikeShoe:hover {
   transition: 1.5s;
-  width: 21vw;
+  height: 30vh;
   filter: grayscale(0%)
 }
 
