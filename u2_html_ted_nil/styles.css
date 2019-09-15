@@ -218,8 +218,8 @@ main {
 
 /* Next page: About */
 
-#aboutUs {
-  /* background: whitesmoke; */
+.aboutUs {
+  background: #fcfcfc;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -227,11 +227,11 @@ main {
   width: 105%;
 }
 
-#aboutUs>img {
+.aboutUs>img {
   width: 100%;
 }
 
-#aboutUs h1 {
+.aboutUs h1 {
   margin: 70px 0 10px 0;
   font-size: 2.4rem;
   align-self: center;
@@ -248,4 +248,42 @@ main {
 
 .aboutUsText>p:last-child {
   margin-top: 25px;
+}
+
+/* Contact Page */
+
+#contactContainer {
+  background: white;
+  padding: 40px 0 0 40px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+#contactContainer p {
+  margin-bottom: 7px;
+}
+
+#contactContainer h2 {
+  margin-bottom: 10px;
+}
+
+#contactContainer p:last-child {
+  margin-top: 20px;
+}
+
+#contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+#contactInfo h3 {
+  margin:30px 0 10px 0;
+}
+
+#contactWrapper {
+  display: flex;
+}
+
+#contactWrapper iframe {
+  margin-top: 60px;
 }
