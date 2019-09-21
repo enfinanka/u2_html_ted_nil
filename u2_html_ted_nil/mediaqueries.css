@@ -20,13 +20,53 @@
     font-size: 1.5em;
   }
 
+  .wrapper {
+    margin: 0;
+  }
+
+  .topNav {
+    margin-top: 200px;
+    display: inline-block;
+    width: 220%;
+  }
+
+  .topNavLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    list-style: none;
+    font-size: 2.3em;
+  }
+
+  .top-nav-link, .top-nav-link a {
+    text-decoration: none;
+    color: black;
+    margin-top: 65px;
+  }
+
+  .top-nav-link:first-child {
+    margin-top: 0;
+  }
+
   .leftBar {
     display: none;
+    /* height: 5vh;
+    margin-top: 150px;
+    width: 51.8em;
+    position: static; */
+  }
+
+  /* .navlinks {
+    display: flex;
+    margin: 0;
   }
 
   .nav-link {
-    display: block;
-  }
+    margin: 0;
+    font-size: 2.5em;
+    margin-left: 1.5em;
+  } */
 
   .contactUs {
     width: 100%;
@@ -48,11 +88,12 @@
   }
 
   .sectionHeading {
-    font-size: 3em;
+    font-size: 4em;
   }
 
   #nikeheader {
-    height: 350px;
+    display: none;
+    /* height: 350px; */
   }
 
   #newestProducts {
@@ -76,7 +117,7 @@
   }
 
   .productContainer h2 {
-    font-size: 4em;
+    font-size: 3em;
   }
 
   .productContainer p {
@@ -89,7 +130,11 @@
   }
 
   .endSectionLine {
-    visibility: hidden;
+    display: none;
+  }
+
+  #endSectionLinebigWidth {
+    display:none;
   }
 
   #upcomingProducts {
@@ -104,11 +149,15 @@
   /* About Page */
 
   .aboutUs {
-    width: 140%;
+    width: 100%;
   }
 
   .aboutUs>img {
     height: 800px;
+  }
+
+  .aboutUsText {
+    width: 80%;
   }
 
   .aboutUsText h1 {
@@ -117,7 +166,7 @@
 
   .aboutUsText p {
     font-size: 2em;
-    width: 120%;
+    width: 100%;
   }
 
   .aboutUsText>p:last-child {
@@ -169,13 +218,12 @@
     height: 500px;
   }
 
-/* Gallery Page */
+  /* Gallery Page */
 
-@media only screen and (max-width: 600px) {
   .grid-container {
     width: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
   }
 
   .grid-item {
