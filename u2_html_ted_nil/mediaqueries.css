@@ -1,0 +1,205 @@
+/* Media Queries phones 600px and under */
+
+@media only screen and (max-width: 600px) {
+  
+  /* Overall Layout */
+
+  header {
+    height: 100px;
+  }
+  #headerImage {
+    height: 80px;
+  }
+
+  header h1 {
+    display: none;
+    font-size: 3em;
+  }
+
+  header li {
+    font-size: 1.5em;
+  }
+
+  .leftBar {
+    display: none;
+  }
+
+  .nav-link {
+    display: block;
+  }
+
+  .contactUs {
+    width: 100%;
+    z-index: 10;
+    background: rgba(24, 59, 84, 0.5);
+  }
+
+  .contactUs img {
+    height: 70px;
+    width: 70px;
+  }
+
+  /* Main content and Index Page */
+  
+  main {
+    width: 100%;
+    padding: 0;
+    margin: 150px 0 0 0;
+  }
+
+  .sectionHeading {
+    font-size: 3em;
+  }
+
+  #nikeheader {
+    height: 350px;
+  }
+
+  #newestProducts {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .nikeshoe {
+    width: 100%;
+    height: 180%;
+    filter:grayscale(0%);
+  }
+
+  .nikeshoe:hover {
+    width: 100%;
+  }
+
+  .productContainer {
+    margin-bottom: 600px;
+  }
+
+  .productContainer h2 {
+    font-size: 4em;
+  }
+
+  .productContainer p {
+    font-size: 2em;
+    padding: 0 0 0 40px;
+  }
+
+  .itemUnavailable {
+    margin-top: 30px;
+  }
+
+  .endSectionLine {
+    visibility: hidden;
+  }
+
+  #upcomingProducts {
+    flex-direction: column;
+  }
+
+  .imageDescription p {
+    font-size: 3.5em;
+    width: 650px;
+  }
+
+  /* About Page */
+
+  .aboutUs {
+    width: 140%;
+  }
+
+  .aboutUs>img {
+    height: 800px;
+  }
+
+  .aboutUsText h1 {
+    font-size: 4em;
+  }
+
+  .aboutUsText p {
+    font-size: 2em;
+    width: 120%;
+  }
+
+  .aboutUsText>p:last-child {
+    margin-top: 40px;
+  }
+
+  /* Contact Page */
+
+  #firstRowContact {
+    flex-direction: column;
+  }
+
+  .contactPageHeading {
+    font-size: 3.5em;
+  }
+
+  #firstRowContact h3 {
+    font-size: 2.5em;
+  }
+
+  #firstRowContact p {
+    font-size: 2em;
+  }
+
+  #contactPhone p {
+    margin: 10px;
+  }
+
+  #secondRowContact {
+    margin-bottom: 150px;
+  }
+
+  #email {
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  #contactFormSubmit {
+    align-self: flex-start;
+    width: 50%;
+    height: 50px;
+    font-size: 2.5em;
+    margin-top: 20px;
+  }
+
+  #gmaps {
+    width: 97%;
+    height: 500px;
+  }
+
+/* Gallery Page */
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .grid-item {
+    border: 0;
+    font-size: 2em;
+  }
+
+  .grid-item p {
+    margin: 20px 0 5px 0;
+  }
+
+  .grid-item button {
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 1.6rem;
+  }
+
+  .grid-container {
+    margin-bottom: 6900px;
+  }
+
+  .grid-item-tag {
+    height: 80px;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+}

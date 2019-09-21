@@ -82,6 +82,29 @@ header ul li {
   margin: 0;
 }
 
+/* Social Media buttons on the bottom-left*/
+
+.contactUs {
+  position: fixed;
+  bottom: 0;
+  width: 20%;
+  min-width: 150px;
+  padding: 5px 0 3px 0;
+  font-size: 1em;
+  /* background: rgba(24, 59, 84, 0.9); */
+  border-radius: 3px;
+  color: white;
+}
+
+.contactUs img {
+  margin-left: 5px;
+}
+
+#socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
 /* Main content */
 
 main {
@@ -130,6 +153,7 @@ main {
 /* Featured Footwear */
 
 .nikeshoe {
+  display: flex;
   width: 19vw;
   min-width: 215px;
   filter: grayscale(50%);
@@ -185,35 +209,6 @@ main {
   padding: 0 0 40px 40px;
   font-size: 2em;
   z-index: 1;
-}
-
-/* Contact & Social Media */
-
-.contactUs {
-  position: fixed;
-  bottom: 0;
-  width: 20%;
-  min-width: 150px;
-  padding: 5px 0 3px 0;
-  font-size: 1em;
-  /* background: rgba(24, 59, 84, 0.9); */
-  border-radius: 3px;
-  color: white;
-}
-
-.contactUs img {
-  margin-left: 5px;
-}
-
-#socialmedia {
-  display: flex;
-  justify-content: center;
-}
-
-#copyright {
-  text-align: center;
-  margin-bottom: 10px;
-  font-size: 0.9em;
 }
 
 /* Next page: About */
@@ -279,10 +274,6 @@ main {
   margin: 2px;
 }
 
-/* Gallery Page */
-
-
-
 /* Part of Contact Page: Newsletter */
 
 #secondRowContact {
@@ -293,6 +284,11 @@ main {
   margin-top: 7px;
   display: flex;
   flex-direction: column;
+}
+
+#gmaps {
+  width: 450px; 
+  height: 300px;
 }
 
 #email {
